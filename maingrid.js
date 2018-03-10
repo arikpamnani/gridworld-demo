@@ -349,11 +349,11 @@ GridWorld2.prototype = {
 
 
 var gridWorld1 = new GridWorld1();
-gridWorld1.initData(4, 4);
+gridWorld1.initData(7, 7);
 gridWorld1.initGrid();
 
 var gridWorld2 = new GridWorld2();
-gridWorld2.initData(4, 4);
+gridWorld2.initData(7, 7);
 gridWorld2.initGrid();
 
 
