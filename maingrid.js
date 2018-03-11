@@ -26,7 +26,7 @@ GridWorld1.prototype = {
 					height: this.height,
 					qval: 0.0,
 					isTarget: ((r==0&&c==0)||(r==this.nrows-1&&c==this.ncols-1)?1:0),
-					color: ((r==0&&c==0)||(r==this.nrows-1&&c==this.ncols-1)?"#1e90ff":"#fff")
+					color: ((r==0&&c==0)||(r==this.nrows-1&&c==this.ncols-1)?"#FFA500":"#fff")
 				};
 				row.push(column);
 			}
@@ -170,7 +170,7 @@ GridWorld2.prototype = {
 					y: (c * this.height) + 1,
 					width: this.width,
 					height: this.height,
-					color: ((r==0&&c==0)||(r==this.nrows-1&&c==this.ncols-1)?"#1e90ff":"#fff"),
+					color: ((r==0&&c==0)||(r==this.nrows-1&&c==this.ncols-1)?"#FFA500":"#fff"),
 		
 					// left, right, up, down
 					dir: (gridWorld1.gridData[r][c].isTarget?{l:0.01,r:0.01,u:0.01,d:0.01}:{l: 0.9, r: 0.9, u: 0.9, d: 0.9}),
